@@ -29,8 +29,8 @@ Repozytorium "web-development-course" zawiera zbiór materiałów wykorzystywany
 &emsp; &emsp; 2.1.11 Obsługa formularzy \
 &emsp; &emsp; 2.1.12 Obsługa zdarzeń \
 &emsp; 2.2 PHP \
-&emsp; &emsp; 2.2.01 Instalowanie pakietów XAMP \
-&emsp; &emsp; 2.2.02 Składnia PHP \
+&emsp; &emsp; 2.2.01 [Instalowanie pakietów XAMP](2-backend\2-2-php\2-2-01-instalowanie-xamp\README.md) \
+&emsp; &emsp; 2.2.02 [Składnia PHP](2-backend\2-2-php\2-2-02-skladnia-php\README.md) \
 &emsp; &emsp; 2.2.03 Zmienne i operatory \
 &emsp; &emsp; 2.2.04 Wyrażenia warunkowe \
 &emsp; &emsp; 2.2.05 Pętle \
