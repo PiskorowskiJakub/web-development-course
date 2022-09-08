@@ -65,10 +65,10 @@ $mystring = "Hej";
 $myarray = array("Jeden", "Dwa", "Trzy");
 ```
 
-W momencie wyświetlenia tektu w funkcji `echo` oraz zmiennej lokalnej. Należy użyc znaku `Przecinka`, oddzielającego.
+W momencie wyświetlenia tektu w funkcji `echo` oraz zmiennej lokalnej. Należy użyc znaku `kropki`, oddzielającego.
 ``` php
 <?php
-    echo "Test ", $zmienna;
+    echo "Test ". $zmienna;
 ?>
 ```
 
