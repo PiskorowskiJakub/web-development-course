@@ -16,7 +16,7 @@ Repozytorium "web-development-course" zawiera zbiór materiałów wykorzystywany
 &emsp; 1.2 CSS \
 2 Backend \
 &emsp; 2.1 JavaScript \
-&emsp; &emsp; 2.1.01 Charakterystyka języka JavaScript \
+&emsp; &emsp; 2.1.01 [Charakterystyka języka JavaScript](2-backend/2-1-javascript/2-1-01-charakterystyka-jezyka/README.md) \
 &emsp; &emsp; 2.1.02 Typy danych \
 &emsp; &emsp; 2.1.03 Tablice \
 &emsp; &emsp; 2.1.04 Debugowanie kodu JavaScript\
@@ -32,7 +32,7 @@ Repozytorium "web-development-course" zawiera zbiór materiałów wykorzystywany
 &emsp; &emsp; 2.2.01 [Instalowanie pakietów XAMP](2-backend/2-2-php/2-2-01-instalowanie-xamp/README.md) \
 &emsp; &emsp; 2.2.02 [Składnia PHP](2-backend/2-2-php/2-2-02-skladnia-php/README.md) \
 &emsp; &emsp; 2.2.03 [Zmienne i operatory](2-backend/2-2-php/2-2-03-zmienne-operatory/README.md) \
-&emsp; &emsp; 2.2.04 Wyrażenia warunkowe \
+&emsp; &emsp; 2.2.04 [Wyrażenia warunkowe](2-backend/2-2-php/2-2-04-wyrazenia-warunkowe/README.md) \
 &emsp; &emsp; 2.2.05 Pętle \
 &emsp; &emsp; 2.2.06 Tablice \
 &emsp; &emsp; 2.2.07 Zastosowanie funkcji do obsługi tablic \
