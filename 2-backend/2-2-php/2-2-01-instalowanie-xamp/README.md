@@ -17,11 +17,11 @@ Systemy typu WAMP są dostępne w formie pakietów zawierających wszystkie potr
 
 Istnieje kilka pakietów typu WAMP, różniących się szczegółami konfiguracji, ale spośród programów open source oraz darmowych tego typu prawdopodobnie najlepszym jest XAMP, który można pobrać pod adresem [apachefriends.org](https://www.apachefriends.org)
 
-Po zainstalowaniu i odpaleniu programu XAMp otrzymamy poniżej przedstawiony Panel kontrolny.
+Po zainstalowaniu i odpaleniu programu XAMP otrzymamy poniżej przedstawiony Panel kontrolny.
 
 ![Panel XAMP](img/panel-xamp.png)
 
-Najlepiej zacząc od kliknięcia przycisku `Config`, znajdującego się w prawym, górnym rogu panelu sterowania, który wyświetli okno konfiguracji, przedstawione na obrazku poniżej. Zaznaczyć opcję `Apache` oraz `MySQL`, dzieki temu wybrane usługi będą uruchamiały się automatycznie. 
+Najlepiej zacząć od kliknięcia przycisku `Config`, znajdującego się w prawym, górnym rogu panelu sterowania, który wyświetli okno konfiguracji, przedstawione na obrazku poniżej. Zaznaczyć opcję `Apache` oraz `MySQL`, dzieki temu wybrane usługi będą uruchamiały się automatycznie. 
 
 ![Konfiguracja Panelu sterowania](img/konfiguracja-xamp.png)
 

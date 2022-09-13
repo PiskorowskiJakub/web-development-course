@@ -17,7 +17,7 @@ Aby umośliwić wykonanie instrukcji PHP należy otworzyć znacznik:
 <?php
 ```
 
-Wewnątrz niego umieszcza się cały kod PHP. natomiast zamykamy go następującym znacznikiem:
+Wewnątrz niego umieszcza się cały kod PHP. Natomiast zamykamy go następującym znacznikiem:
 ``` php
 ?>
 ```
