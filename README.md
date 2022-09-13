@@ -17,7 +17,7 @@ Repozytorium "web-development-course" zawiera zbiór materiałów wykorzystywany
 2 Backend \
 &emsp; 2.1 JavaScript \
 &emsp; &emsp; 2.1.01 [Charakterystyka języka JavaScript](2-backend/2-1-javascript/2-1-01-charakterystyka-jezyka/README.md) \
-&emsp; &emsp; 2.1.02 Typy danych \
+&emsp; &emsp; 2.1.02 [Typy danych](2-backend/2-1-javascript/2-1-02-typy-danych/README.md) \
 &emsp; &emsp; 2.1.03 Tablice \
 &emsp; &emsp; 2.1.04 Debugowanie kodu JavaScript\
 &emsp; &emsp; 2.1.05 Operatory \
