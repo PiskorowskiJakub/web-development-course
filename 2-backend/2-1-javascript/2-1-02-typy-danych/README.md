@@ -108,8 +108,8 @@ Operatory logiczne zwykle stosuje się do łączenia rezultatów dwóch operacji
 
 Dodawanie i odejmowanie wartości `1` jest częstym działaniem w różnych językach programowania. Zamiast używać operatorów `+=` oraz `-=`, można skorzystac z następujących konstrukcji:
 ``` JavaScript
-++$x;
---$x;
+++x;
+--y;
 ```
 
 ### Konkatenacja łańcuchów znaków
