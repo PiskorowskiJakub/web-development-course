@@ -112,7 +112,7 @@ Przypuśćmy, że mamy do czynienia z napisanym w PHP menu, które przekazuje do
             break;
         case "Links":
             echo "Wybrałeś odsyłacze";
-            brak;
+            break;
     }
 ?>
 ```
