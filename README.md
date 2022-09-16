@@ -33,7 +33,7 @@ Repozytorium "web-development-course" zawiera zbiór materiałów wykorzystywany
 &emsp; &emsp; 2.2.02 [Składnia PHP](2-backend/2-2-php/2-2-02-skladnia-php/README.md) \
 &emsp; &emsp; 2.2.03 [Zmienne i operatory](2-backend/2-2-php/2-2-03-zmienne-operatory/README.md) \
 &emsp; &emsp; 2.2.04 [Wyrażenia warunkowe](2-backend/2-2-php/2-2-04-wyrazenia-warunkowe/README.md) \
-&emsp; &emsp; 2.2.05 Pętle \
+&emsp; &emsp; 2.2.05 [Pętle](2-backend/2-2-php/2-2-05-petle/README.md) \
 &emsp; &emsp; 2.2.06 Tablice \
 &emsp; &emsp; 2.2.07 Zastosowanie funkcji do obsługi tablic \
 &emsp; &emsp; 2.2.08 Formularze \
