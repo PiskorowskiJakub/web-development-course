@@ -38,4 +38,5 @@ Repozytorium "web-development-course" zawiera zbiór materiałów wykorzystywany
 &emsp; &emsp; 2.2.07 Zastosowanie funkcji do obsługi tablic \
 &emsp; &emsp; 2.2.08 Formularze \
 &emsp; &emsp; 2.2.09 Obsługa formularzy \
-&emsp; &emsp; 2.2.10 Funkcje
+&emsp; &emsp; 2.2.10 Funkcje \
+&emsp; &emsp; 2.2.11 [Korzystanie z bazy MySQL za pośrednictwem PHP](2-backend/2-2-php/2-2-11-mysql-z-php/README.md)
