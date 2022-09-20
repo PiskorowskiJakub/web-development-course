@@ -18,16 +18,14 @@ Repozytorium "web-development-course" zawiera zbiór materiałów wykorzystywany
 &emsp; 2.1 JavaScript \
 &emsp; &emsp; 2.1.01 [Charakterystyka języka JavaScript](2-backend/2-1-javascript/2-1-01-charakterystyka-jezyka/README.md) \
 &emsp; &emsp; 2.1.02 [Typy danych](2-backend/2-1-javascript/2-1-02-typy-danych/README.md) \
-&emsp; &emsp; 2.1.03 Tablice \
-&emsp; &emsp; 2.1.04 Debugowanie kodu JavaScript\
-&emsp; &emsp; 2.1.05 Operatory \
-&emsp; &emsp; 2.1.06 Instrukcje sterujące \
-&emsp; &emsp; 2.1.07 Okna dialogowe \
-&emsp; &emsp; 2.1.08 Pętle \
-&emsp; &emsp; 2.1.09 Funkcje \
-&emsp; &emsp; 2.1.10 Obiekty w JS \
-&emsp; &emsp; 2.1.11 Obsługa formularzy \
-&emsp; &emsp; 2.1.12 Obsługa zdarzeń \
+&emsp; &emsp; 2.1.03 Debugowanie kodu JavaScript\
+&emsp; &emsp; 2.1.04 [Instrukcje sterujące](2-backend/2-1-javascript/2-1-04-instrukcje-sterujace/README.md) \
+&emsp; &emsp; 2.1.05 Okna dialogowe \
+&emsp; &emsp; 2.1.06 Pętle \
+&emsp; &emsp; 2.1.07 Funkcje \
+&emsp; &emsp; 2.1.08 Obiekty w JS \
+&emsp; &emsp; 2.1.09 Obsługa formularzy \
+&emsp; &emsp; 2.1.10 Obsługa zdarzeń \
 &emsp; 2.2 PHP \
 &emsp; &emsp; 2.2.01 [Instalowanie pakietów XAMP](2-backend/2-2-php/2-2-01-instalowanie-xamp/README.md) \
 &emsp; &emsp; 2.2.02 [Składnia PHP](2-backend/2-2-php/2-2-02-skladnia-php/README.md) \
