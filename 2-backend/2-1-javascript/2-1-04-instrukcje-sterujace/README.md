@@ -6,6 +6,10 @@
 
 Przedstawienie działania instrukcji sterujących.
 
+Pliki źródłowe: 
+- [if-else.html](if-else.html)
+- [switch.html](switch.html)
+
 ---
 
 ## Objaśnienie
@@ -48,6 +52,7 @@ else {
     document.write("a jest równe 100")
 }
 ```
+Plik Źródłowy: [if-else.html](if-else.html)
 
 Jak widać, nic nie stoi na przeszkodzie, aby w ramach tak dodanej instrukcji `if` użyć kolejnego słowa kluczowego `else`, po nim zaś można byłoby zdefiniować następny warunek `if` i tak dalej. Wprawdzie w powyższych przykładach zostały użyte nawiasy klamrowe, ale ponieważ między nimi są umieszczone pojedynczo instrukcje, to poprzedni przykład da sie zapisać następująco:
 ``` JavaScript
@@ -91,6 +96,8 @@ switch(page)
         break
 }
 ```
+
+Plik źródłowy: [switch.html](switch.html)
 
 Zmienna `page` pojawia się tylko raz, na początku instrukcji `switch`. Następnie do zweryfikowania warunków jest użyta instrukcja `case`. Jeśli zachodzi zgodność, wykonywana jest instrukcja powiązana z danym warunkiem.
 

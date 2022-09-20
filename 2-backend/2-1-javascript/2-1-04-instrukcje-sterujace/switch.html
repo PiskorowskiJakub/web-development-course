@@ -1,0 +1,43 @@
+<!--  switch.html
+ 2-backend/2-1-javascript/2-1-04-instrukcje-sterujace/
+
+ Created by Jakub Piskorowski on 19/09/2022 wersja: 1.0
+ Copyright © 2022 Jakub Piskorowski. All rights reserved.
+ GitHub: https://github.com/PiskorowskiJakub/web-development-course
+
+Instrukcje sterujące w języku JavaScript
+-->
+<!DOCTYPE html>
+    <head>
+        <title>PAI</title>
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <script type="text/javascript">
+           
+           page = "Home"
+            
+           switch(page)
+            {
+                case "Home":
+                    document.write("Wybrałeś Stronę główną")
+                    break
+                case "About":
+                    document.write("Wybrałeś Informacje")
+                    break
+                case "News":
+                    document.write("Wybrałeś Aktualności")
+                    break
+                case "Login":
+                    document.write("Wybrałeś Logowanie")
+                    break
+                case "Links":
+                    document.write("Wybrałeś Odsyłacze")
+                    break
+                default:
+                    document.write("Nierozpoznany wybór")
+                    break
+            }
+        </script>
+    </body>
+</html>
