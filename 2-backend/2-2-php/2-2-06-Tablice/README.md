@@ -12,7 +12,7 @@ Pliki źródłowe:
 - [tablice-foreach-1.php](tablice-foreach-1.php)
 - [tablice-foreach-2.php](tablice-foreach-2.php)
 - [tablice-list-1.php](tablice-list-1.php)
-- [tablice-wielowymiarowe.php](tablice-wielowymarowe.php)
+- [tablice-wielowymiarowe-1.php](tablice-wielowymarowe-1.php)
 
 ---
 
@@ -231,7 +231,7 @@ Przyjrzyjmy się temu w praktyce na podstawie tablicy asocjacyjnej znanej z popr
             echo "</pre>";    
 ?>
 ```
-Kod źródłowy: [tablice-wielowymiarowe.php](tablice-wielowymarowe.php)
+Kod źródłowy: [tablice-wielowymiarowe-1.php](tablice-wielowymarowe-1.php)
 
 Ponieważ kod się trochę rozrósł, nazwy niektórych elementów zostały zmienione aby poprawić jego przejrzystość. Na przykład: ponieważ dotychczasowa tablica `$paper` jest teraz tylko pewnym podzbiorem większej tablicy, ta większa ma nazwę `$products`. W tej tablicy znajdują się trzy elementy, `paper`, `pens`, oraz `misc` a każdy z nich zawiera kolejną tablicę z parami `klucz-wartość`.
 
@@ -259,6 +259,52 @@ Do każdego elementu tablicy można się odwołać bezpośrednio, korzystając z
 
 Ten kod spowoduje wyświetlenie wartości `Kleje`.
 
+Istnieje możliwość tworzenia wielowymiarowych tablic, do których należy odwoływać się za pomocą zwykłych, liczbowych indeksów, a nie alfanumerycznych identyfikatorów. Przykład poniżej przedstawia kod tworzący planszę do szachów, z bierkami rozstawionymi w położeniu początkowym.
+``` php
+<?php
+    $chessboard = array(
+        array('w','s','g','h','k','g','s','w'),
+        array('p','p','p','p','p','p','p','p'),
+        array(' ',' ',' ',' ',' ',' ',' ',' '),
+        array(' ',' ',' ',' ',' ',' ',' ',' '),
+        array(' ',' ',' ',' ',' ',' ',' ',' '),
+        array(' ',' ',' ',' ',' ',' ',' ',' '),
+        array('P','P','P','P','P','P','P','P'),
+        array('W','S','G','H','K','G','S','W'),
+    );
+    echo "<pre>";
+    foreach($chessboard as $row)
+    {
+        foreach($row as $piece)
+            echo "$piece ";
+        echo "<br>";
+    }
+    echo "</pre>";
+?>
+```
+Kod źródłowy: [tablice-wielowymiarowe-2.php](tablice-wielowymarowe-2.php)
+
+W tym przykładzie małe litery odpowiadają czarnym bierkom, a wielkie litery białym. Oznaczenia są następujące: `w`=wieża, `s`=skoczek, `g`=goniec, `k`=król, `h`=hetman, `p`=pion. Ponownie do wyświetlenia zawartości tablic wykorzystane zostały dwie zagnieżdżone pętle `foreach ... as`. Zewnętrzna pętla przetwarza każdy wiersz i przypisuje go do zmiennej `$row`, która sama w sobie także jest tablicą. każdy element tablicy `$chessboard` jest bowiem tablicą z zawartością poszczególnych pól. Ta pętla zawiera dwie instrukcje, należało je więc ująć w nawiasy klamrowe. 
+
+Wewnętrzna pętla przetwarza poszczególne pola w wierszu i wyświetla znak, czyli figurę (`$piece`) znajdującą się na danym polu. Po każdym znaku następuje spacja, dzięki której wyświetlona plansza ma bardziej kwadratowy kształt. Ta pętla składa się tylko z jednej instrukcji, nie trzeba było jej więc ujmować w nawiasy klamrowe. Znacznik `<pre>` oraz `</pre>` gwarantują poprawne sformatowanie wyświetlanej planszy:
+
+```text
+w s g h k g s w 
+p p p p p p p p 
+                
+                
+                
+                
+P P P P P P P P 
+W S G H K G S W 
+```
+
+Do każdego z elementów tej tablicy można się odwołać przy użyciu nawiasów kwadratowych, na przykład tak:
+``` PHP
+    echo $chessboard[7][3];
+```
+ta instrukcja powoduje wyświetlenie wielkiej litery `H`, czyli figury w czwartym polu ósmego wiersza (przypominam, że indeksy tablic rozpoczynają się od 0, nie od 1).
+
 
 Źródło: [Książka "PHP, MySQL i JavaScript", Wydawnictwo: Helion](https://helion.pl/ksiazki/php-mysql-i-javascript-wprowadzenie-wydanie-v-robin-nixon,phmyj5.htm#format/e)
 
@@ -266,6 +312,10 @@ Ten kod spowoduje wyświetlenie wartości `Kleje`.
 ---
 
 ## Pytania 
-
+1. Na czym polega różnica między tablicą indeksowaną numerycznie a asocjacyjną?
+2. Jaka jest główna zaleta posługiwania się słowem kluczowym array?
+3. Jak utworzyć tablicę wielowymiarową? 
+4. jakie numery indeksów posiada tablica numeryczna, do której podczas przypisywania do niej wartości nie podawaliśmy numerów indeksów.
+5. Za pomocą jakich pętli jesteśmy w stanie wyświetlić zawartość tablicy asocjacyjnej?
 
 -->

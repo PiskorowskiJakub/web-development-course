@@ -1,4 +1,4 @@
-<!--  tablice-wielowymiarowe.php
+<!--  tablice-wielowymiarowe-1.php
  2-backend/2-2-php/2-2-06-tablice/
 
  Created by Jakub Piskorowski on 23/09/2022 wersja: 1.0
