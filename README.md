@@ -34,7 +34,6 @@ Repozytorium "web-development-course" zawiera zbiór materiałów wykorzystywany
 &emsp; &emsp; 2.2.05 [Pętle](2-backend/2-2-php/2-2-05-petle/README.md) \
 &emsp; &emsp; 2.2.06 [Tablice](2-backend/2-2-php/2-2-06-Tablice/README.md) \
 &emsp; &emsp; 2.2.07 Zastosowanie funkcji do obsługi tablic \
-&emsp; &emsp; 2.2.08 Formularze \
-&emsp; &emsp; 2.2.09 Obsługa formularzy \
-&emsp; &emsp; 2.2.10 Funkcje \
-&emsp; &emsp; 2.2.11 [Korzystanie z bazy MySQL za pośrednictwem PHP](2-backend/2-2-php/2-2-11-mysql-z-php/README.md)
+&emsp; &emsp; 2.2.08 [Obsługa formularzy](2-backend/2-2-php/2-2-08-obsluga-formularzy/README.md) \
+&emsp; &emsp; 2.2.09 Funkcje \
+&emsp; &emsp; 2.2.10 [Korzystanie z bazy MySQL za pośrednictwem PHP](2-backend/2-2-php/2-2-11-mysql-z-php/README.md)
