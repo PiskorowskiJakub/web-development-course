@@ -20,7 +20,7 @@ Repozytorium "web-development-course" zawiera zbiór materiałów wykorzystywany
 &emsp; &emsp; 2.1.02 [Typy danych](2-backend/2-1-javascript/2-1-02-typy-danych/README.md) \
 &emsp; &emsp; 2.1.03 Debugowanie kodu JavaScript\
 &emsp; &emsp; 2.1.04 [Instrukcje sterujące](2-backend/2-1-javascript/2-1-04-instrukcje-sterujace/README.md) \
-&emsp; &emsp; 2.1.05 Okna dialogowe \
+&emsp; &emsp; 2.1.05 [Okna dialogowe](2-backend/2-1-javascript/2-1-05-okna-dialogowe/README.md) \
 &emsp; &emsp; 2.1.06 [Pętle](/2-backend/2-1-javascript/2-1-06-petle/README.md) \
 &emsp; &emsp; 2.1.07 Funkcje \
 &emsp; &emsp; 2.1.08 Obiekty w JS \
