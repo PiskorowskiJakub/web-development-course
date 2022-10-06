@@ -244,7 +244,7 @@ Kod Źródłowy: [formularz-textarea.php](formularz-textarea.php)
 
 ## Zadania
 1. Utwórz formularz logowania użytkownika, ma zawierać pola: login(`text`), hasło (`password`), checkbox z etykietą "Zapamiętaj mnie", przycisk do przesłania formularza. \
-Po przesłaniu formularza: \
+Po przesłaniu formularza:
 - wyświetlisz na ekranie przesłany przez użytkownika login "Login: ..."
 - zakodujesz za pomocą funkcji `sha1()` hasło użytkownika i wypiszesz je w takim formacie: "hasło: ..."
 - wypiszesz na ekranie zdanie informacyjne, czy pole checkbox zostało zaznaczone. 
