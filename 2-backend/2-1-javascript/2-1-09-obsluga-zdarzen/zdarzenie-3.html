@@ -1,0 +1,36 @@
+<!-- zdarzenie-2.html
+ 2-backend/2-1-javascript/2-1-09-obsluga-zdarzen/
+
+ Created by Jakub Piskorowski on 06/10/2022 wersja: 1.0
+ Copyright © 2022 Jakub Piskorowski. All rights reserved.
+ GitHub: https://github.com/PiskorowskiJakub/web-development-course
+
+Obsluga zdarzen w JavaScript
+-->
+<!DOCTYPE html>
+    <head>
+        <title>PAI</title>
+        <meta charset="utf-8">
+    </head>
+    <body>
+
+        <div>
+            <p id="name">freeCodeCamp</p>
+            Color: <p id="test1"> ... </p>
+            <button onclick="changeColor('blue')" id="blue">Blue</button>
+            <button onclick="changeColor('green')" id="green">Green</button>
+            <button onclick="changeColor('red')" id="red">Red</button>
+      </div>
+
+        <script type="text/javascript">
+            const name = document.getElementById("name");
+
+            function changeColor(color) {
+                name.style.color = color;
+                document.getElementById("test1").textContent = color;
+            }
+
+            //alert(napis);
+        </script>
+    </body>
+</html>
