@@ -255,3 +255,24 @@ Wyświetl w kolejnych paragrafach pseudonim oraz dwa razy komentarz. Komentarz w
 3. Utwórz ankietę składającą się z 3 pytań. Pierwsze ma zawierać do wyboru `listę rozwijaną` zawierającą minimum 3 opcje, drugie zawierające minimum 3 pola typu `radio` oraz trzecie z minimum trzema polami `checkbox`. Po wysłaniu formularza wyświetl poniżej wszystkie wybrane opcje.
 
 
+4. Utwórz formularz pobierający od użytkownika Imię (`text`), nazwisko (`text`), oraz wybór płci (`radio`). Wyświetlić przywitanie użytkownika w zależności od wybranej płci w formie: **Witam Pana Adama** lub **Witam Panią Karolinę**.
+
+5. Stwórz formularz określający poziom zaawansowania w danej grze. W każdej grze potrzeba inna ilość godzin aby poznać wszystkie jej aspekty. Dodać listę rozwijaną (`select option`), w której wybierzemy sobie grę oraz pole do wpisania ilości godzin (`number`). W rezultacie powinno zwrócić informację jak dobry jesteś w danej grze na podstawie. Poniżej przykładowa tabela ilustrująca warunki:
+
+| Minecraft  | |
+| ------------- | ------------- |
+| < 100 h  | Jesteś początkujący  |
+| > 100 h  | Poznałeś już grę |
+
+| Terraria  | |
+| ------------- | ------------- |
+| < 500 h  | Jesteś początkujący  |
+| > 500 h  | Poznałeś już grę |
+
+| CSGO  | |
+| ------------- | ------------- |
+| < 1000 h  | Jesteś początkujący  |
+| > 1000 h  | Poznałeś już grę |
+
+
+
