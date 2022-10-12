@@ -2,7 +2,7 @@
 
 `Jakub Piskorowski on 18/09/2022 wersja: 1.0`
 
-## Temat: Korzystanie z bazy MySQL za pośrednictwem PHP
+## Temat: Połączenie z bazą MySQL za pośrednictwem PHP
 
 Przedstawienie procesu nawiązywania połączenia oraz tworzenia zapytań do bazy MySQL za pośrednictwem PHP.
 

@@ -49,4 +49,13 @@ Okno, które może posłużyć do wprowadzania danych (instrukcja wejścia) – 
  Źródło: [pasja-informatyki.pl](https://pasja-informatyki.pl/programowanie-webowe/alert-prompt-confirm/)
 
 
+---
+
+1. Zadanie polega na wykorzystaniu okien dialogowych do uzyskania następującego rezultatu. Wyświetlić pytanie (np. **Czy lubisz pizze?**) i możliwość potwierdzenia lub odrzucenia odpowiedzi. Następnie jeżeli użytkownik wybierze odpowiedź "`Ok`" powinno wyskoczyć kolejne okienko z możliwością wpisania odpowiedzi na pytanie "**Jakią?**" i na końcu wyświetlić to jaką pizzę lubi jeść. Jeżeli przy pytaniu wybierze opcję `Anuluj` powinno wyskoczyć okienko z informacją **Szkoda**. \
+Infografika do zadania:  
+Czy lubisz pizze (Tak / Nie)? \
+  Tak - Jaką? ... \
+  Nie - Szkoda (tekst)
+
+2. Z pomocą okna dialogowego, spytać się użytkownika aby podał szerokość prostokąta a następnie kolejne okno aby podał wysokość prostokąta. Aby łatwiej przeprowadzać operacje na tej wartości należy ciąg znaków zamienić na typ liczbowy. Do tego celu należy użyć funkcji `parseInt()` (Przykład: `parseInt(prompt(...))`). Następnie wykorzystując wiedzę z tematu **Pętle** należy narysować prostokąt z znaku gwiazdki (`*`). 
 
