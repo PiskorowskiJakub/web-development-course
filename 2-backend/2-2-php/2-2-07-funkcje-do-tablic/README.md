@@ -173,6 +173,6 @@ Kod źródłowy: [funkcje-reset.php](funkcja-reset.php)
 -  Stworzyć tablicę składającą się z 10 liczb z przedziału od 0 do 99 oraz zmienną przechowującą zdanie składające się z minimum 5 wyrazów. Następnie wyświetlić stworzoną tablice oraz utworzone zdanie.
 -  Zmienną typu `string` zapisać w `tablicy` zapisując wyrazy w kolejnych elementach tablicy.
 - Wyświetlić ilość elementów w oby dwóch tablic. 
-- Posortować tablice. Tablice zawierająca liczby, rosnąco a tablicę zawierającą wyrazy, alfabetycznie. Następnie wyświetlić oby dwie tablice.
+- Posortować tablice. Tablice zawierająca liczby, rosnąco a tablicę zawierającą wyrazy, alfabetycznie. Wyświetlić oby dwie tablice. Następnie posortować oby dwie tablice w odwrotnej kolejności, tablicę z liczbami od największej liczby do najmniejszej a tablicę z wyrazami od alfabetycznie od końca oraz wyświetlić oby dwie tablice. 
 - Przetasować elementy dwóch tablic oraz wyświetlić rezultat.
 - Wykorzystując funkcję `current()` wyświetlić zerowy element tablicy, następnie z wykorzystaniem funkcji przejść dwa elementy do przodu oraz wykorzystując funkcję `current()` wyświetlić element w której się znajduje wskaźnik. Na koniec wrócić do początku tablicy i wyświetlić dany element.
