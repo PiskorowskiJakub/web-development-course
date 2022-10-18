@@ -15,6 +15,8 @@ Pliki źródłowe:
 - [funkcje-current.php](funkcje-current.php)
 - [funkcje-next.php](funkcje-next.php)
 - [funkcje-reset.php](funkcja-reset.php)
+- [funkcje-push.php](funkcje-push.php)
+- [funkcje-pop.php](funkcje-pop.php)
 
 ---
 
@@ -165,6 +167,54 @@ Kod źródłowy: [funkcje-reset.php](funkcja-reset.php)
 
 Źródło: [Książka "PHP, MySQL i JavaScript", Wydawnictwo: Helion](https://helion.pl/ksiazki/php-mysql-i-javascript-wprowadzenie-wydanie-v-robin-nixon,phmyj5.htm#format/e)
 
+### array_push
+
+`array_push()` traktuje tablicę jako stos i odkłada przekazane zmienne na koniec tablicy. Długość tablicy zwiększa się o liczbę wypchniętych zmiennych.
+``` php
+<?php
+$stack = array("orange", "banana");
+array_push($stack, "apple", "raspberry");
+print_r($stack);
+?>
+```
+Kod źródłowy: [funkcje-push.php](funkcje-push.php)
+
+Wynik działania programu:
+``` text
+Array
+(
+    [0] => orange
+    [1] => banana
+    [2] => apple
+    [3] => raspberry
+)
+```
+
+Źródło: [php.net](https://www.php.net/manual/en/function.array-push.php)
+
+### array_pop
+
+`array_pop()` wyrzuca i zwraca wartość ostatniego elementu tablicy, skracając tablicę o jeden element.
+```php
+<?php
+$stack = array("orange", "banana", "apple", "raspberry");
+$fruit = array_pop($stack);
+print_r($stack);
+?>
+```
+Kod źródłowy: [funkcje-pop.php](funkcje-pop.php)
+
+Wynik działania programu:
+``` text
+Array
+(
+    [0] => orange
+    [1] => banana
+    [2] => apple
+)
+```
+
+Źródło: [php.net](https://www.php.net/manual/en/function.array-pop.php)
 
 ---
 
