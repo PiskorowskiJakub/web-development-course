@@ -36,6 +36,8 @@ Repozytorium "web-development-course" zawiera zbiór materiałów wykorzystywany
 &emsp; &emsp; 2.2.07 [Zastosowanie funkcji do obsługi tablic](2-backend/2-2-php/2-2-07-funkcje-do-tablic/README.md) \
 &emsp; &emsp; 2.2.08 [Obsługa formularzy](2-backend/2-2-php/2-2-08-obsluga-formularzy/README.md) \
 &emsp; &emsp; 2.2.09 [Funkcje](2-backend/2-2-php/2-2-09-funkcje/README.md) \
-&emsp; &emsp; 2.2.10 [Połączenie z bazą MySQL za pośrednictwem PHP](2-backend/2-2-php/2-2-11-mysql-z-php/README.md)
+&emsp; &emsp; 2.2.10 [Sesja i ciasteczka](2-backend/2-2-php/2-2-10-sesja-ciasteczka/README.md) \
+&emsp; &emsp; 2.2.11 [Połączenie z bazą MySQL za pośrednictwem PHP](2-backend/2-2-php/2-2-11-mysql-z-php/README.md)
+
 
 
