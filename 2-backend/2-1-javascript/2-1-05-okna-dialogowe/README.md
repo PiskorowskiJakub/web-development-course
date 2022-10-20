@@ -59,3 +59,6 @@ Czy lubisz pizze (Tak / Nie)? \
 
 2. Z pomocą okna dialogowego, spytać się użytkownika aby podał szerokość prostokąta a następnie kolejne okno aby podał wysokość prostokąta. Aby łatwiej przeprowadzać operacje na tej wartości należy ciąg znaków zamienić na typ liczbowy. Do tego celu należy użyć funkcji `parseInt()` (Przykład: `parseInt(prompt(...))`). Następnie wykorzystując wiedzę z tematu **Pętle** należy narysować prostokąt z znaku gwiazdki (`*`). 
 
+3. Za pomocą okna dialogowego pobrać od użytkownika dwie liczby. Następnie napisać funkcję, która pomnoży je i zwróci wynik. na koniec wyświetlić wynik w przeglądarce. 
+   
+4. Za pomocą okna dialogowego (decyzyjnego) zadać pytanie "**Jeżeli chcesz wyświetlić prostokąt z gwiazdek, kliknij OK, jeżeli wciśniesz Anuluj dostaniesz linię poziomą z gwiazdek**" Jeżeli wybrał prostokąt zapytać o podanie szerokości i wysokości a gdy wybrał linię poziomą zadać pytanie o długość. Napisać dwie funkcje, które realizują zadane pytanie. 
