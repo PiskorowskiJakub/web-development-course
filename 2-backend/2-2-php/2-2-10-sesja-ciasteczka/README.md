@@ -251,3 +251,12 @@ Kod źródłowy: [sprawdzenie-cookie.php](sprawdzenie-cookie.php)
 
 Źródło: [w3schools.com](https://www.w3schools.com/php/php_cookies.asp)
 
+---
+
+## Zadania
+
+1. Stwórz dwa pliki źródłowe. W jednym stworzysz dwie zmienne, jedna z wartością liczbową a druga z wyrazem. Następnie zapiszesz te wartości w `sesji`. Kolejnym krokiem jest stworzenie drugiego pliku, który wyświetli nam zawartość tych zmiennych pobranej z sesji oraz przycisk do usuwania sesji.
+2. Zrobić to samo co w zad 1 z tą różnicą że wykorzystać tym razem ciasteczka (`cookie`).
+
+3. Zrealizować to samo co w zadaniu 1 dla `sesji`, tylko tym razem stworzyć tablice przechowujące wyrazy oraz liczby oraz w drugim pliku, który wyświetla nam zawartość tablicy wprowadzić dodatkowo pole do wrzucania elementów do tablicy i wyświetleniu jej, zaktualizowanej za każdym razem kiedy wprowadziliśmy nowy element.
+4. Zrealizować to samo co w zadaniu 3 z tą różnicą że tym razem użyć ciasteczka(`cookie`).
