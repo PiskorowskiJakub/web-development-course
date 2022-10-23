@@ -239,6 +239,30 @@ Kod Źródłowy: [formularz-textarea.php](formularz-textarea.php)
 
 Źródło: [technikprogramista.pl](https://technikprogramista.pl/kurs/php/lekcja/php-formularze/)
 
+---
+
+### Dołączanie plików z pomocą metody $_GET 
+
+Za pomocą metody `$_GET`, która umożliwia między innymi pobranie wartości z adresu URL jesteśmy w stanie określić, który plik zostanie otworzony. 
+
+Aby pobrać z adresu strony zawartość zmiennej, należy ja najpierw zadeklarować w kodzie html w następujący sposób:
+``` html
+<a href="text.php?page=main"> Strona główna </a>
+```
+
+Słowo kluczowe `page` jest naszą zmienną, natomiast `main` jest przypisaną wartością tej zmiennej. Aby pobrać zawartość tej zmiennej musimy użyć metody `$_GET` i odwołać się do nazwy zmiennej w następujący sposób:
+``` php
+$_GET["page"];
+```
+
+Aby dołączyć plik na stronie należy użyć metody `include()` oraz jako parametr przekazać nazwę pliku wraz z rozszerzeniem. Aby dołączyć rozszerzenie wystarczy do naszej zmiennej dołączyć ciąg znaków `.php`. W najprostszym przypadku mogło by wyglądać w następujący sposób:
+``` php
+<?php
+include($_GET["page"].".php")
+?>
+```
+
+Pełny kod źródłowy: [dolaczanie.php](dolaczanie.php)
 
 ---
 
