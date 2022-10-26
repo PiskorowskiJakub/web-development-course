@@ -25,7 +25,7 @@ Repozytorium "web-development-course" zawiera zbiór materiałów wykorzystywany
 &emsp; &emsp; 2.1.07 [Funkcje](2-backend/2-1-javascript/2-1-07-funkcje/README.md) \
 &emsp; &emsp; 2.1.08 Obiekty w JS \
 &emsp; &emsp; 2.1.09 [Obsługa zdarzeń](2-backend/2-1-javascript/2-1-09-obsluga-zdarzen/README.md) \
-&emsp; &emsp; 2.1.10 Obsługa formularzy \
+&emsp; &emsp; 2.1.10 [Obsługa formularzy](2-backend/2-1-javascript/2-1-10-obsluga-formularzy/README.md) \
 &emsp; 2.2 PHP \
 &emsp; &emsp; 2.2.01 [Instalowanie pakietów XAMP](2-backend/2-2-php/2-2-01-instalowanie-xamp/README.md) \
 &emsp; &emsp; 2.2.02 [Składnia PHP](2-backend/2-2-php/2-2-02-skladnia-php/README.md) \

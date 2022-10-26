@@ -1,0 +1,42 @@
+<!-- pole-radio.html
+ 2-backend/2-1-javascript/2-1-07-funkcje/
+
+ Created by Jakub Piskorowski on 25/10/2022 wersja: 1.0
+ Copyright © 2022 Jakub Piskorowski. All rights reserved.
+ GitHub: https://github.com/PiskorowskiJakub/web-development-course
+
+Uchwycenie elementu HTML w JavaScript
+-->
+<!DOCTYPE html>
+    <head>
+        <title>PAI</title>
+        <meta charset="utf-8">
+    </head>
+    <body>
+        
+        <form>
+            <legend>Wybierz</legend>
+            <input type="radio" value="A" name="radio"> A
+            <input type="radio" value="B" name="radio"> B
+            <input type="radio" value="C" name="radio" checked> C
+        </form>
+        
+        <button onclick="display()">Wyślij</button>
+        <p id="test1"> ... </p>
+        
+        <script type="text/javascript">
+        function display() {
+            var field = document.getElementsByName('radio');
+            var value1;
+            for(var i = 0; i < field.length; i++){
+                if(field[i].checked){
+                    value1 = field[i].value;
+                }
+            }
+            document.getElementById("test1").textContent = value1;
+        }
+        </script>
+            
+        </script>
+    </body>
+</html>

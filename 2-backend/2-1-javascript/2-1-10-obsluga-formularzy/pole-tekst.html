@@ -1,0 +1,29 @@
+<!-- pole-tekst.html
+ 2-backend/2-1-javascript/2-1-07-funkcje/
+
+ Created by Jakub Piskorowski on 03/10/2022 wersja: 1.0
+ Copyright © 2022 Jakub Piskorowski. All rights reserved.
+ GitHub: https://github.com/PiskorowskiJakub/web-development-course
+
+Uchwycenie elementu HTML w JavaScript
+-->
+<!DOCTYPE html>
+    <head>
+        <title>PAI</title>
+        <meta charset="utf-8">
+    </head>
+    <body>
+        
+        <input type="text" id="pole">
+        <button onclick="display()">Wyślij</button>
+        <p id="test1"> ... </p>
+
+        <script type="text/javascript">
+            function display() {
+                var napis = document.getElementById("pole").value;
+                document.getElementById("test1").textContent = napis;
+            }
+            
+        </script>
+    </body>
+</html>

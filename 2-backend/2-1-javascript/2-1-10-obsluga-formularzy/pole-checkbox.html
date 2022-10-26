@@ -1,0 +1,44 @@
+<!-- pole-checkbox.html
+ 2-backend/2-1-javascript/2-1-07-funkcje/
+
+ Created by Jakub Piskorowski on 25/10/2022 wersja: 1.0
+ Copyright © 2022 Jakub Piskorowski. All rights reserved.
+ GitHub: https://github.com/PiskorowskiJakub/web-development-course
+
+Uchwycenie elementu HTML w JavaScript
+-->
+<!DOCTYPE html>
+    <head>
+        <title>PAI</title>
+        <meta charset="utf-8">
+    </head>
+    <body>
+        
+        <form>
+            <legend>Wybierz</legend>
+            <input type="checkbox" value="kos" name="ptaki" /> kos<br>
+            <input type="checkbox" value="gil" name="ptaki" /> gil<br>
+            <input type="checkbox" value="paw" name="ptaki" /> paw<br>
+            <input type="checkbox" value="emu" name="ptaki" /> emu<br>
+        </form>
+        <button onclick="display()">Wyślij</button>
+        <p id="test1"> ... </p>
+        
+        <script type="text/javascript">
+        function display() {
+            var field = document.getElementsByName('ptaki');
+            var value1 ='';
+            for(var i = 0; i < field.length; i++){
+                if(field[i].checked){
+                    value1 = value1+' '+ field[i].value;
+                }
+            }
+            if (value1=='') value1="Nie dokonałeś żadnego wyboru.";
+            
+            document.getElementById("test1").textContent = value1;
+        }
+        </script>
+            
+        </script>
+    </body>
+</html>
