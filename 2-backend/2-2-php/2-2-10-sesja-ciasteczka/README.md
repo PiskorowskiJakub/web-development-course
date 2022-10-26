@@ -258,5 +258,5 @@ Kod źródłowy: [sprawdzenie-cookie.php](sprawdzenie-cookie.php)
 1. Stwórz dwa pliki źródłowe. W jednym stworzysz dwie zmienne, jedna z wartością liczbową a druga z wyrazem. Następnie zapiszesz te wartości w `sesji`. Kolejnym krokiem jest stworzenie drugiego pliku, który wyświetli nam zawartość tych zmiennych pobranej z sesji oraz przycisk do usuwania sesji.
 2. Zrobić to samo co w zad 1 z tą różnicą że wykorzystać tym razem ciasteczka(`cookie`).
 
-3. Stworzyć formularz logowania na stronę z polami do wprowadzenia loginu oraz hasła. hasło zaszyfrować metodą `sha1()`. Następnie zapisać te wartości w `sesji`. Następnie utworzyć drugi plik z Panelem użytkownika i wyświetlić jego login oraz zaszyfrowane hasło.
+3. Stworzyć formularz logowania na stronę z polami do wprowadzenia loginu oraz hasła. Hasło zaszyfrować metodą `sha1()`oraz zapisać dwie wartości w `sesji`. Następnie utworzyć drugi plik z panelem użytkownika i wyświetlić jego login oraz zaszyfrowane hasło.
 4. Zrealizować to samo co w zadaniu 3 z tą różnicą aby użyć ciasteczka(`cookie`).
