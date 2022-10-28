@@ -7,10 +7,65 @@
 Przedstawienie procesu nawiązywania połączenia oraz tworzenia zapytań do bazy MySQL za pośrednictwem PHP.
 
 Pliki źródłowe:
+- [polaczenie.php](polaczenie.php)
+- [wprowadzanie.php](wprowadzanie.php)
 - [login.php](login.php)
 - [connmysql.php](connmysql.php)
 
 ---
+
+## Skrót
+
+### Połaczenie z bazą i wyświetlenie rekordów
+
+``` PHP
+<?php
+$hostname = 'localhost'; // Nazwa hosta
+$database = 'biblioteka'; // Nazwa bazy danych
+$username = 'root'; // Nazwa użtytkownika
+$password = ''; // Hasło
+
+$conn = new mysqli($hostname, $username, $password, $database);
+
+$query = "SELECT * FROM ksiazki";
+$result = $conn->query($query);
+
+while($row = $result->fetch_assoc()){
+    echo $row['id']. ' '. $row['tytul']. ' '. $row['autor']. ' '. $row['rok']. ' '. $row['data-dod']."<br>";
+}
+
+$result -> close();
+$conn -> close();
+?>
+```
+Kod źródłowy: [polaczenie.php](polaczenie.php)
+
+### Wprowadzanie nowych rekordów do bazy danych
+
+``` PHP
+<?php
+$hostname = 'localhost'; // Nazwa hosta
+$database = 'biblioteka'; // Nazwa bazy danych
+$username = 'root'; // Nazwa użtytkownika
+$password = ''; // Hasło
+
+$conn = new mysqli($hostname, $username, $password, $database);
+
+$tytul = "tytul";
+$autor = "autor";
+$rok = "2022";
+$data = date("Y-m-d");
+
+$sql = "INSERT INTO `ksiazki` (`id`, `tytul`, `autor`, `rok`, `data-dod`)
+        VALUES (NULL, '$tytul', '$autor', '$rok', '$data')";
+
+if($result = $conn -> query($sql)) echo "Dodano nowy rekord";
+else echo "Nie udało się dodać nowego rekordu";
+
+?>
+```
+Kod źródłowy: [wprowadzanie.php](wprowadzanie.php)
+
 
 ## Objaśnienie
 
@@ -77,41 +132,9 @@ Wszystkie dane zwrócone przez MySQL trafią do obiektu `$result` w postaci, w k
 
 ### Pobieranie rezultatu
 
-Po zwróceniu rezultatu do obiektu `$result` możesz pobrać z niego potrzebne dane po kolei przy użyciu metody `fetch_assoc` tego obiektu. Przykład poniżej stanowi połączenie i rozszerzenie dotychczasowych przykładów. Jest to już kompletny program, który można przepisać i uruchomić, aby pozyskać z bazy potrzebne dane.
+Po zwróceniu rezultatu do obiektu `$result` możesz pobrać z niego potrzebne dane po kolei przy użyciu metody `fetch_array` tego obiektu. Przykład poniżej stanowi połączenie i rozszerzenie dotychczasowych przykładów. Jest to już kompletny program, który można przepisać i uruchomić, aby pozyskać z bazy potrzebne dane.
 
-``` php
-<?php
-     require_once 'login.php';
-    $conn = new mysqli($hn, $un, $pw, $db);
-    if($conn ->connect_error) die($conn->connect_error);
-
-     $query = "SELECT * FROM classics";
-    $result = $conn->query($query);
-    if(!$result) die($conn->error);
-
-    $rows = $result->num_rows;
-    for($j =0; $j < $rows; ++$j)
-    {
-        $result->data_seek($j);
-        echo 'Autor: ' .$result->fetch_assoc()['Autor'] .'<br>';
-        $result->data_seek($j);
-        echo 'Tytuł: ' .$result->fetch_assoc()['Tytul'] .'<br>';
-        $result->data_seek($j);
-        echo 'Rok: ' .$result->fetch_assoc()['Rok'] .'<br>';
-    }
-
-    $result -> close();
-    $conn -> close();
-?>
-```
-
-W opisanym przykładzie w celu odwołania się do odpowiedniego wiersza danych przy każdej iteracji pętli użyliśmy metody `data_seek` obiektu `$result`. Następnie wykorzystaliśmy metodę `fetch_assoc` do pobrania wartości przechowywanych w poszczególnych komórkach i wreszcie wartości te wyświetliliśmy przy użyciu instrukcji `echo`. 
-
-Istnieje jednak bardziej skuteczniejsza metoda na osiągnięcie podobnego efektu. Polega on na pobieraniu całych wierszy danych naraz. 
-
-### Pobieranie wiersza danych
-
-Aby pobrać cały wiersza na raz należy zastąpić pętlę `for` z przykładu powyżej na taką, która została przedstawiona poniżej. Po wykonaniu tej zmiany powinieneś uzyskać ten sam efekt. 
+ 
 
 ``` php
 <?php
@@ -139,9 +162,9 @@ Aby pobrać cały wiersza na raz należy zastąpić pętlę `for` z przykładu p
 
 Plik źródłowy: [connmysql.php](connmysql.php)
 
-W tak zmodyfikowanym przykładzie mamy do czynienia z trzykrotnie mniejszą liczbą odwołań do obiektu `$result` (w porównaniu z poprzednim kodem), a w ramach każdej iteracji pętli  następuje tylko jedno odwołanie, ponieważ przy użyciu metody `fetch_array` są pobierane całe wiersze kodu. metoda ta zwraca cały wiersz danych w postaci tablicy, która w naszym programie jest następnie przypisywana do zmiennej `$row`. 
+W ramach każdej iteracji pętli  następuje tylko jedno odwołanie, ponieważ przy użyciu metody `fetch_array` są pobierane całe wiersze kodu. metoda ta zwraca cały wiersz danych w postaci tablicy, która w naszym programie jest następnie przypisywana do zmiennej `$row`. 
 
-Zależnie od przekazanych do niej wartości metoda `fetch_array` może zwrócić trzy rodzaje tablic:
+Zależnie od przekazanych do niej wartości metoda `fetch_array` może zwrócić dwa rodzaje tablic:
 
 - **MYSQLI_NUM** - Tablica numeryczna. Poszczególne kolumny pojawiają się w tablicy zgodnie z kolejnością, w jakiej zostały utworzone w tabeli. 
 - **MYSQLI_ASSOC** - Tablica asocjacyjna. Każdy klucz stanowi nazwę kolumny. Ponieważ w tym przypadku do danych trzeba się odwołać za pośrednictwem nazwy kolumny (a nie numeru indeksu), warto skorzystać z tego wariantu zawsze gdy to możliwe, aby ułatwić sobie debugowanie programu, a innym programistom interpretację kodu.
