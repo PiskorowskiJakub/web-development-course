@@ -139,5 +139,5 @@ Kod źródłowy: [pole-select.html](pole-select.html)
 
 ## Zadania
 
-1. Stworzyć formularz do logowania na stronę. Stworzyć dwa pola, jedno do loginu, drugie do hasła oraz przycisk do wysłania. Następnie wyświetlić Login oraz zaszyfrowane hasło metodą `sha1()`.
+1. Stworzyć formularz do logowania na stronę posiadający dwa pola, jedno do loginu, drugie do hasła oraz przycisk do wysłania. Następnie wyświetlić Login oraz Hasło.
 2. Stworzyć ankietą na dowolną tematykę w której zostaną użyte pola `text`, `radio`, `checkbox` i `select`. Następnie po wysłaniu formularza wyświetlić opcje, które wybrał użytkownik. 
