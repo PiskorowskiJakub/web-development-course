@@ -9,6 +9,8 @@ Przedstawienie procesu nawiązywania połączenia oraz tworzenia zapytań do baz
 Pliki źródłowe:
 - [polaczenie.php](polaczenie.php)
 - [wprowadzanie.php](wprowadzanie.php)
+- [polaczenie-inf03.php](polaczenie-inf03.php)
+- [wprowadzenie-inf03.php](wprowadzanie-inf03.php)
 - [login.php](login.php)
 - [connmysql.php](connmysql.php)
 
@@ -16,7 +18,7 @@ Pliki źródłowe:
 
 ## Skrót
 
-### Połaczenie z bazą i wyświetlenie rekordów
+### Połączenie z bazą i wyświetlenie rekordów
 
 ``` PHP
 <?php
@@ -66,6 +68,75 @@ else echo "Nie udało się dodać nowego rekordu";
 ```
 Kod źródłowy: [wprowadzanie.php](wprowadzanie.php)
 
+---
+
+## 1. Wskazówki do egzaminu zawodowego INF.03
+
+|  Funckcje biblioteki mysqli | Zwracana wartość |
+|---|---|
+| mysqli_connect(serwer, użytkownik, hasło, nazwa_bazy)  | id połączenia lub FALSE, gdy niepowodzenie |
+| mysqli_select_db(id_polaczenia, nazwa bazy) | TRUE/FALSE w zależności od stanu operacji |
+| mysqli_error(id_polaczenia) | Tekst komunikatu błędu |
+| mysqli_close(id_polaczenia) | TRUE/FALSE w zależności od stanu operacji |
+| mysqli_query(id_polaczenia, zapytanie) | Wynik zapytania |
+|  mysqli_fetch_row(wynik_zapytania) | Tablica numeryczna odpowiadająca wierszowi zapytania |
+| mysqli_fetch_array(wynik_zapytania) | Tablica zawierająca kolejny wiersz z podanych w wyniku zapytania lub FALSE, jeżeli nie ma więcej wierszy w wyniku zapytania |
+| mysqli_num_rows(wynik_zapytania) | Liczba wierszy/ kolumn w podanym zapytaniu |
+| mysqli_num_fields(wynik_zapytania) | Liczba wierszy/ kolumn w podanym zapytaniu |
+
+### Połączenie z bazą i wyświetlenie rekordów
+
+``` PHP
+<?php
+$hostname = 'localhost'; // Nazwa hosta
+$database = 'biblioteka'; // Nazwa bazy danych
+$username = 'root'; // Nazwa użtytkownika
+$password = ''; // Hasło
+
+$conn = mysqli_connect($hostname, $username, $password, $database);
+
+$query = "SELECT * FROM ksiazki";
+$result = mysqli_query($conn, $query);
+
+while($row = mysqli_fetch_row($result)){
+    echo $row[0]. ' '. $row[1]. ' '. $row[2]. ' '. $row[3]. ' '. $row[4]."<br>";
+}
+
+mysqli_close($conn);
+?>
+```
+
+Kod źródłowy: [polaczenie-inf03.php](polaczenie-inf03.php)
+
+### Wprowadzanie nowych rekordów do bazy danych
+
+``` PHP
+<?php
+$hostname = 'localhost'; // Nazwa hosta
+$database = 'biblioteka'; // Nazwa bazy danych
+$username = 'root'; // Nazwa użtytkownika
+$password = ''; // Hasło
+
+$conn = mysqli_connect($hostname, $username, $password, $database);
+
+$tytul = "tytul";
+$autor = "autor";
+$rok = "2022";
+$data = date("Y-m-d");
+
+$sql = "INSERT INTO `ksiazki` (`id`, `tytul`, `autor`, `rok`, `data-dod`)
+        VALUES (NULL, '$tytul', '$autor', '$rok', '$data')";
+
+if($result = mysqli_query($conn, $sql)) echo "Dodano nowy rekord";
+else echo "Nie udało się dodać nowego rekordu";
+
+mysqli_close($conn);
+?>
+```
+
+Kod źródłowy: [wprowadzenie-inf03.php](wprowadzanie-inf03.php)
+
+---
 
 ## Objaśnienie
 
