@@ -141,3 +141,4 @@ Kod źródłowy: [pole-select.html](pole-select.html)
 
 1. Stworzyć formularz do logowania na stronę posiadający dwa pola, jedno do loginu, drugie do hasła oraz przycisk do wysłania. Następnie wyświetlić Login oraz Hasło.
 2. Stworzyć ankietą na dowolną tematykę w której zostaną użyte pola `text`, `radio`, `checkbox` i `select`. Następnie po wysłaniu formularza wyświetlić opcje, które wybrał użytkownik. 
+3. Stworzyć formularz do obliczania rat kredytu. Pobrać od użytkownika, jaką kwotę pożycza, na ile miesięcy oraz dać możliwość wpisania oprocentowania. Stworzyć funkcję, która przyjmie jako parametry, kwotę, ilość miesięcy oraz oprocentowanie. Następnie doda ten procent do danej kwoty i podzieli na ilość miesięcy. Funkcja zwróci kwotę do zapłaty co 1 miesiąc. następnie wyświetlić na stronie w znaczniku `<p>` kwotę do zapłaty co miesiąc.
