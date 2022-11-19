@@ -51,15 +51,15 @@ Do pól formularza typu `radio` odwołujemy sie poprzez wartość `checked` oraz
 
 ``` JavaScript
 <script type="text/javascript">
-var f = document.getElementsByName('radio');
-var v;
-for(var i = 0; i < f.length; i++){
-    if(f[i].checked){
-        v = f[i].value;
+function display() {
+    var field = document.getElementsByName('radio');
+    var value1;
+    for(var i = 0; i < field.length; i++){
+        if(field[i].checked){
+            value1 = field[i].value;
+        }
     }
-}
-function display() {;
-    document.getElementById("test1").textContent = V;
+    document.getElementById("test1").textContent = value1;
 }
 </script>
 ```
