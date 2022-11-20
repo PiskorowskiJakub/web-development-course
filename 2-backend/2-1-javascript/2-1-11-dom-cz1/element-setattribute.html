@@ -1,0 +1,32 @@
+<!-- element-setattribute.html
+ 2-backend/2-1-javascript/2-1-11-dom-cz1/
+
+ Created by Jakub Piskorowski on 15/11/2022 wersja: 1.0
+ Copyright © 2022 Jakub Piskorowski. All rights reserved.
+ GitHub: https://github.com/PiskorowskiJakub/web-development-course
+
+Zastosowanie modelu DOM
+-->
+<html>
+    <style>
+        .democlass {
+            color: red;
+        }
+    </style>
+
+    <body>
+        <h1 id="myH1">The Element Object</h1>
+        <h2>The setAttribute() Method</h2>
+
+        <p>Click "Add Class" to add a class attribute to the h1 element:</p>
+
+        <button onclick="myFunction()">Add Class</button>
+
+        <script type="text/javascript">
+            function myFunction() {
+                document.getElementById("myH1").setAttribute("class", "democlass"); 
+            }
+        </script>
+
+    </body>
+</html>

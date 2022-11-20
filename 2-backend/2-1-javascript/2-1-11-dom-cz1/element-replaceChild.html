@@ -1,0 +1,41 @@
+<!-- element-replace-child.html
+ 2-backend/2-1-javascript/2-1-11-dom-cz1/
+
+ Created by Jakub Piskorowski on 15/11/2022 wersja: 1.0
+ Copyright © 2022 Jakub Piskorowski. All rights reserved.
+ GitHub: https://github.com/PiskorowskiJakub/web-development-course
+
+Zastosowanie modelu DOM
+-->
+<html>
+    <body>
+        <h1>The Element Object</h1>
+        <h2>The replaceChild() Method</h2>
+
+        <ul id="myList">
+            <li>Coffee</li>
+            <li>Tea</li>
+            <li>Milk</li>
+        </ul>
+
+        <p>Click "Replace" to replace the first item in the the list.</p>
+
+        <button onclick="myFunction()">"Replace"</button>
+
+        <p>This example replaces the Text node "Coffee" with a Text node "Water". Replacing the entire li element is also an alternative.</p>
+
+        <script>
+            function myFunction() {
+                // Select first child element:
+                const element = document.getElementById("myList").children[0];
+
+                // Create a new text node:
+                const newNode = document.createTextNode("Water");
+
+                // Replace the text node:
+                element.replaceChild(newNode, element.childNodes[0]);
+            }
+        </script>
+
+    </body>
+</html>

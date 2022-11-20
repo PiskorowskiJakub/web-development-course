@@ -1,0 +1,34 @@
+<!-- document-removechild-all.html
+ 2-backend/2-1-javascript/2-1-11-dom-cz1/
+
+ Created by Jakub Piskorowski on 17/11/2022 wersja: 1.0
+ Copyright © 2022 Jakub Piskorowski. All rights reserved.
+ GitHub: https://github.com/PiskorowskiJakub/web-development-course
+
+Zastosowanie modelu DOM
+-->
+<html>
+    <body>
+        <h1>The Element Object</h1>
+        <h2>The removeChild() Method</h2>
+
+        <p>Click "Remove" to remove all child nodes of ul.</p>
+        <button onclick="myFunction()">Remove</button>
+
+        <ul id="myList">
+            <li>Coffee</li>
+            <li>Tea</li>
+            <li>Milk</li>
+        </ul>
+
+        <script>
+            function myFunction() {
+                const list = document.getElementById("myList");
+                while (list.hasChildNodes()) {
+                    list.removeChild(list.firstChild);
+                }
+            }
+        </script>
+
+    </body>
+</html>

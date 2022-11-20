@@ -1,0 +1,29 @@
+<!-- document-getelementsbyname.html
+ 2-backend/2-1-javascript/2-1-11-dom-cz1/
+
+ Created by Jakub Piskorowski on 17/11/2022 wersja: 1.0
+ Copyright © 2022 Jakub Piskorowski. All rights reserved.
+ GitHub: https://github.com/PiskorowskiJakub/web-development-course
+
+Zastosowanie modelu DOM
+-->
+<html>
+    <body>
+        <h1>The Document Object</h1>
+        <h2>The document.getElementsByName Method</h2>
+
+        Cats:
+        <input name="animal" type="checkbox" value="Cats">
+        Dogs:
+        <input name="animal" type="checkbox" value="Dogs">
+
+        <p>Number of elements with name="animal" is:</p>
+        <p id="demo"></p>
+
+        <script>
+            let num = document.getElementsByName("animal").length;
+            document.getElementById("demo").innerHTML = num;
+        </script>
+
+    </body>
+</html>

@@ -1,0 +1,30 @@
+<!-- style-color.html
+ 2-backend/2-1-javascript/2-1-11-dom-cz1/
+
+ Created by Jakub Piskorowski on 17/11/2022 wersja: 1.0
+ Copyright © 2022 Jakub Piskorowski. All rights reserved.
+ GitHub: https://github.com/PiskorowskiJakub/web-development-course
+
+Zastosowanie modelu DOM
+-->
+<html>
+    <body>
+        <h2 id="myH2">This is an example h2</h2>
+        <p id="myP">This is an example paragraph.</p>
+        <p id="myP2">This is also an example paragraph.</p>
+        <div id="myDiv">This is an example div.</div>
+        <br>
+
+        <button type="button" onclick="myFunction()">Set text color</button>
+
+        <script>
+            function myFunction() {
+                document.getElementById("myH2").style.color = "#ff0000";
+                document.getElementById("myP").style.color = "magenta";
+                document.getElementById("myP2").style.color = "blue";
+                document.getElementById("myDiv").style.color = "lightblue";
+            }
+        </script>
+
+    </body>
+</html>

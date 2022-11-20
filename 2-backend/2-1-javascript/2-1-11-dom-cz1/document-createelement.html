@@ -1,0 +1,27 @@
+<!-- document-createelement.html
+ 2-backend/2-1-javascript/2-1-11-dom-cz1/
+
+ Created by Jakub Piskorowski on 17/11/2022 wersja: 1.0
+ Copyright © 2022 Jakub Piskorowski. All rights reserved.
+ GitHub: https://github.com/PiskorowskiJakub/web-development-course
+
+Zastosowanie modelu DOM
+-->
+<html>
+    <body>
+
+        <h1>The Document Object</h1>
+        <h2>The createElement() Method</h2>
+
+        <p>Create a p element with some text:</p>
+
+        <script>
+            // Create element:
+            const para = document.createElement("p");
+            para.innerText = "This is a paragraph.";
+
+            // Append to body:
+            document.body.appendChild(para);
+        </script>
+    </body>
+</html>

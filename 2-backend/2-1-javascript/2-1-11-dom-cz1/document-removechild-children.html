@@ -1,0 +1,35 @@
+<!-- document-removechild-children.html
+ 2-backend/2-1-javascript/2-1-11-dom-cz1/
+
+ Created by Jakub Piskorowski on 17/11/2022 wersja: 1.0
+ Copyright © 2022 Jakub Piskorowski. All rights reserved.
+ GitHub: https://github.com/PiskorowskiJakub/web-development-course
+
+Zastosowanie modelu DOM
+-->
+<html>
+    <body>
+        <h1>The Element Object</h1>
+        <h2>The removeChild() Method</h2>
+
+        <p>Click "Remove" to remove the first child (index 0)</p>
+        <button onclick="myFunction()">Remove</button>
+
+        <ul id="myList">
+            <li>Coffee</li>
+            <li>Tea</li>
+            <li>Milk</li>
+        </ul>
+
+
+        <script type ="text/javascript">
+            function myFunction() {
+                const list = document.getElementById("myList");
+                if (list.hasChildNodes()) {
+                    list.removeChild(list.children[1]);
+                }
+            }
+        </script>
+
+    </body>
+</html>

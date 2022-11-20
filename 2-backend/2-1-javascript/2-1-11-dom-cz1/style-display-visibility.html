@@ -1,0 +1,29 @@
+<!-- style-display-visibility.html
+ 2-backend/2-1-javascript/2-1-11-dom-cz1/
+
+ Created by Jakub Piskorowski on 17/11/2022 wersja: 1.0
+ Copyright © 2022 Jakub Piskorowski. All rights reserved.
+ GitHub: https://github.com/PiskorowskiJakub/web-development-course
+
+Zastosowanie modelu DOM
+-->
+<html>
+    <body>
+        <p id="myP1">This is some text.</p>
+        <p id="myP2">This is some text.</p>
+
+        <input type="button" onclick="demoDisplay()" value="Hide text with display property">
+        <input type="button" onclick="demoVisibility()" value="Hide text with visibility property">
+
+        <script>
+            function demoDisplay() {
+                document.getElementById("myP1").style.display = "none";
+            }
+
+            function demoVisibility() {
+                document.getElementById("myP2").style.visibility = "hidden";
+            }
+        </script>
+
+    </body>
+</html>

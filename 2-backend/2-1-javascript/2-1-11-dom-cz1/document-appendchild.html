@@ -1,0 +1,30 @@
+<!-- document-appendchild.html
+ 2-backend/2-1-javascript/2-1-11-dom-cz1/
+
+ Created by Jakub Piskorowski on 17/11/2022 wersja: 1.0
+ Copyright © 2022 Jakub Piskorowski. All rights reserved.
+ GitHub: https://github.com/PiskorowskiJakub/web-development-course
+
+Zastosowanie modelu DOM
+-->
+<html>
+    <body>
+        <h1>The Document Object</h1>
+        <h2>The createElement() Method</h2>
+
+        <p>Create a p element and append it to "myDiv":</p>
+
+        <div id="myDIV" style="padding:16px;background-color:lightgray">
+        <h3>A DIV element</h3>
+        </div>
+
+        <script>
+            // Create element:
+            const para = document.createElement("p");
+            para.innerHTML = "This is a paragraph.";
+
+            // Append to another element:
+            document.getElementById("myDIV").appendChild(para);
+        </script>
+    </body>
+</html>

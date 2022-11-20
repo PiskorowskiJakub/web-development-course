@@ -1,0 +1,71 @@
+<!-- element-innerhtml.html
+ 2-backend/2-1-javascript/2-1-11-dom-cz1/
+
+ Created by Jakub Piskorowski on 15/11/2022 wersja: 1.0
+ Copyright © 2022 Jakub Piskorowski. All rights reserved.
+ GitHub: https://github.com/PiskorowskiJakub/web-development-course
+
+Zastosowanie modelu DOM
+-->
+<html>
+    <!--
+        Uzyskanie zawartości elementu HTML za pomocą id="myP":
+    -->
+    <h1>The Element Object</h1>
+    <h2>The innerHTML Property</h2>
+
+    <p id="myP">I am a paragraph.</p>
+
+    <p>The content of "myP" is:</p>
+    <p id="demo"></p>
+
+    <script>
+        let html = document.getElementById("myP").innerHTML;
+        document.getElementById("demo").innerHTML = html;
+    </script>
+    <!--
+        Zmiana zawartości elementu HTML za pomocą id="demo":
+    -->
+    <h1>The Element Object</h1>
+    <h2>The innerHTML Property</h2>
+
+    <p id="demo" onclick="myFunction()">Click me to change my HTML content (innerHTML).</p>
+
+    <script>
+        function myFunction() {
+            document.getElementById("demo").innerHTML = "I have changed!";
+        }
+    </script>
+    <!--
+        Uzyskanie zawartości elementu <ul> za pomocą id="myList":
+    -->
+    <h1>The Element Object</h1>
+    <h2>The innerHTML Property</h2>
+
+    <ul id="myList">
+    <li>Coffee</li>
+    <li>Tea</li>
+    </ul>
+
+    <p>The HTML content of the ul element "myList" is:</p>
+    <p id="demo"></p>
+
+    <script>
+        let html1 = document.getElementById("myList").innerHTML;
+        document.getElementById("demo").innerHTML = html1;
+    </script>
+    <!--
+        Usunięcie zawartości elementu <p> z id="demo":
+    -->
+    <h1>The Element Object</h1>
+    <h2>The innerHTML Property</h2>
+
+    <p id="demo">Click the button to delete my HTML content (innerHTML).</p>
+    <button onclick="myFunction()">Try it</button>
+
+    <script>
+    function myFunction() {
+            document.getElementById("demo").innerHTML = "";
+        }
+    </script>
+</html>
