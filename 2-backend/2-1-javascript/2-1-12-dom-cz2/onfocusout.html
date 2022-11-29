@@ -1,0 +1,23 @@
+<!-- onfocusout.html
+ 2-backend/2-1-javascript/2-1-12-dom-cz2/
+
+ Created by Jakub Piskorowski on 22/11/2022 wersja: 1.0
+ Copyright © 2022 Jakub Piskorowski. All rights reserved.
+ GitHub: https://github.com/PiskorowskiJakub/web-development-course
+
+Zastosowanie modelu DOM
+-->
+<html>
+    <body>
+        Enter your name: <input type="text" id="fname" onfocusout="myFunction()">
+
+        <p>When you leave the input field, a function is triggered which transforms the input text to upper case.</p>
+
+        <script>
+            function myFunction() {
+                var x = document.getElementById("fname");
+                x.value = x.value.toUpperCase();
+            }
+        </script>
+    </body>
+</html>

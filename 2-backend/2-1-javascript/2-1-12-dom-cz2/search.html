@@ -1,0 +1,26 @@
+<!-- search.html
+ 2-backend/2-1-javascript/2-1-12-dom-cz2/
+
+ Created by Jakub Piskorowski on 22/11/2022 wersja: 1.0
+ Copyright © 2022 Jakub Piskorowski. All rights reserved.
+ GitHub: https://github.com/PiskorowskiJakub/web-development-course
+
+Zastosowanie modelu DOM
+-->
+<html>
+    <body>
+        <h1>JavaScript Strings</h1>
+        <h2>The search() Method</h2>
+
+        <p>search() searches a string for a value and returns the position of the first match:</p>
+
+        <p id="demo"></p>
+
+        <script>
+            let text = "Mr. Blue has a blue house"
+            let position = text.search("Blue");
+
+            document.getElementById("demo").innerHTML = position;
+        </script>
+    </body>
+</html>

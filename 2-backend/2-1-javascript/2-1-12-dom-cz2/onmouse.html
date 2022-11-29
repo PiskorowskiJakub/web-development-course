@@ -1,0 +1,29 @@
+<!-- onmouse.html
+ 2-backend/2-1-javascript/2-1-12-dom-cz2/
+
+ Created by Jakub Piskorowski on 22/11/2022 wersja: 1.0
+ Copyright © 2022 Jakub Piskorowski. All rights reserved.
+ GitHub: https://github.com/PiskorowskiJakub/web-development-course
+
+Zastosowanie modelu DOM
+-->
+<html>
+    <body>
+        <img onmouseover="bigImg(this)" onmouseout="normalImg(this)" border="0" src="https://png.pngtree.com/png-clipart/20210309/original/pngtree-happy-3d-smile-emoji-png-image_5858830.jpg" alt="Smiley" width="32" height="32">
+
+        <p>The function bigImg() is triggered when the user moves the mouse pointer over the image.</p>
+        <p>The function normalImg() is triggered when the mouse pointer is moved out of the image.</p>
+
+        <script>
+            function bigImg(x) {
+                x.style.height = "64px";
+                x.style.width = "64px";
+            }
+
+            function normalImg(x) {
+                x.style.height = "32px";
+                x.style.width = "32px";
+            }
+        </script>
+    </body>
+</html>

@@ -1,0 +1,43 @@
+<!-- onclick.html
+ 2-backend/2-1-javascript/2-1-12-dom-cz2/
+
+ Created by Jakub Piskorowski on 22/11/2022 wersja: 1.0
+ Copyright © 2022 Jakub Piskorowski. All rights reserved.
+ GitHub: https://github.com/PiskorowskiJakub/web-development-course
+
+Zastosowanie modelu DOM
+-->
+<html>
+    <body>
+        <!-- Wykonanie funkcji w JavaScript po kliknięciu przycisku -->
+        <p>The onclick event triggers a function when an element is clicked on.</p>
+        <p>Click to trigger a function that will output "Hello World":</p>
+
+        <button onclick="myFunction()">Click me</button>
+
+        <p id="demo"></p>
+
+        <script>
+            function myFunction() {
+                document.getElementById("demo").innerHTML = "Hello World";
+            }
+        </script>
+
+        <!-- Kliknięcie w przycisk aby wyświetlić datę -->
+        <p>Click to display the time.</p>
+
+        <button onclick="getElementById('demo').innerHTML=Date()">What is the time?</button>
+
+        <p id="demo"></p>
+
+        <!-- Kliknięcie elementu <h3> aby zmienić kolor tekstu -->
+        <h3 id="demo" onclick="myFunction()">Click this text to change the color.</h3>
+
+        <script>
+            function myFunction() {
+                document.getElementById("demo").style.color = "red";
+            }
+        </script>
+
+    </body>
+</html>

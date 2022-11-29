@@ -1,0 +1,28 @@
+<!-- onresize.html
+ 2-backend/2-1-javascript/2-1-12-dom-cz2/
+
+ Created by Jakub Piskorowski on 22/11/2022 wersja: 1.0
+ Copyright © 2022 Jakub Piskorowski. All rights reserved.
+ GitHub: https://github.com/PiskorowskiJakub/web-development-course
+
+Zastosowanie modelu DOM
+-->
+<html>
+    <body onresize="myFunction()">
+
+        <p>Try to resize the browser window to display the windows height and width.</p>
+        
+        <p id="demo"></p>
+        
+        <p><strong>Note:</strong> this example will not work properly in IE8 and earlier. IE8 and earlier do not support the outerWidth/outerHeight propery of the window object.</p>
+        
+        <script>
+            function myFunction() {
+                var w = window.outerWidth;
+                var h = window.outerHeight;
+                var txt = "Window size: width=" + w + ", height=" + h;
+                document.getElementById("demo").innerHTML = txt;
+            }
+        </script>
+    </body>
+</html>

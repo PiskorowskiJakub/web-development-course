@@ -1,0 +1,26 @@
+<!-- replace.html
+ 2-backend/2-1-javascript/2-1-12-dom-cz2/
+
+ Created by Jakub Piskorowski on 22/11/2022 wersja: 1.0
+ Copyright © 2022 Jakub Piskorowski. All rights reserved.
+ GitHub: https://github.com/PiskorowskiJakub/web-development-course
+
+Zastosowanie modelu DOM
+-->
+<html>
+    <body>
+        <h1>JavaScript Strings</h1>
+        <h2>The replace() Method</h2>
+
+        <p>replace() searches a string for a value,
+        and returns a new string with the specified value(s) replaced:</p>
+
+        <p id="demo">Mr Blue has a blue house and a blue car.</p>
+
+        <script>
+            let str = document.getElementById("demo").innerHTML; 
+            let res = str.replace(/blue/g, "red");
+            document.getElementById("demo").innerHTML = res;
+        </script>
+    </body>
+</html>

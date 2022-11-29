@@ -1,0 +1,26 @@
+<!-- substr.html
+ 2-backend/2-1-javascript/2-1-12-dom-cz2/
+
+ Created by Jakub Piskorowski on 22/11/2022 wersja: 1.0
+ Copyright © 2022 Jakub Piskorowski. All rights reserved.
+ GitHub: https://github.com/PiskorowskiJakub/web-development-course
+
+Zastosowanie modelu DOM
+-->
+<html>
+    <body>
+        <h1>JavaScript Strings</h1>
+        <h2>The substr() Method</h2>
+
+        <p>substr() extracts a part of a string:</p>
+
+        <p id="demo"></p>
+
+        <script>
+            let text = "Hello world!";
+            let result = text.substr(1, 4);
+
+            document.getElementById("demo").innerHTML = result;
+        </script>
+    </body>
+</html>

@@ -1,0 +1,28 @@
+<!-- indexof.html
+ 2-backend/2-1-javascript/2-1-12-dom-cz2/
+
+ Created by Jakub Piskorowski on 22/11/2022 wersja: 1.0
+ Copyright © 2022 Jakub Piskorowski. All rights reserved.
+ GitHub: https://github.com/PiskorowskiJakub/web-development-course
+
+Zastosowanie modelu DOM
+-->
+<html>
+    <body>
+        <h1>JavaScript Strings</h1>
+        <h2>The indexOf() Method</h2>
+
+        <p>indexOf() returns the position of the first occurrence of a value in a string.</p>
+
+        <p>Find "welcome":</p>
+
+        <p id="demo"></p>
+
+        <script>
+            let text = "Hello world, welcome to the universe.";
+            let result = text.indexOf("welcome");
+
+            document.getElementById("demo").innerHTML = result;
+        </script>
+    </body>
+</html>

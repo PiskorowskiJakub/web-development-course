@@ -1,0 +1,27 @@
+<!-- onkeyup.html
+ 2-backend/2-1-javascript/2-1-12-dom-cz2/
+
+ Created by Jakub Piskorowski on 22/11/2022 wersja: 1.0
+ Copyright © 2022 Jakub Piskorowski. All rights reserved.
+ GitHub: https://github.com/PiskorowskiJakub/web-development-course
+
+Zastosowanie modelu DOM
+-->
+<html>
+    <body>
+        <h1>HTML DOM Events</h1>
+        <h2>The keyup Event</h2>
+
+        <p>A function is triggered when the user releases a key in the input field.</p>
+        <p>The function transforms the input field to upper case:</p>
+
+        Enter your name: <input type="text" id="fname" onkeyup="myFunction()">
+
+        <script>
+            function myFunction() {
+                let x = document.getElementById("fname");
+                x.value = x.value.toUpperCase();
+            }
+        </script>
+    </body>
+</html>
