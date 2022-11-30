@@ -476,3 +476,9 @@ Wartości właściwości
 
 
 Źródło: [w3schools.com](https://www.w3schools.com/jsref/prop_style_fontweight.asp)
+
+--- 
+
+## Zadania
+
+1. Stworzyć dwa znaczniki `<p>` o różnym `id` oraz pod każdym znacznikiem `3 przyciski`. Pierwszy przycisk, który będzie zmieniał `kolor tekstu` (pierwszego tekstu na zielony a drugiego na czerwony). Drugi przycisk, który `pogrubi tekst` (oby dwa teksty pogrubione na "bold"). Trzeci przycisk, który `usuwa formatowanie` tekstu nad przyciskiem. 
