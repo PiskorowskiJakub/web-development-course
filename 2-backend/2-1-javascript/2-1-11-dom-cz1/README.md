@@ -484,5 +484,7 @@ Wartości właściwości
 1. Stworzyć dwa znaczniki `<p>` o różnym `id` oraz pod każdym znacznikiem `3 przyciski`. Pierwszy przycisk, który będzie zmieniał `kolor tekstu` (pierwszego tekstu na zielony a drugiego na czerwony). Drugi przycisk, który `pogrubi tekst` (oby dwa teksty pogrubione na "bold"). Trzeci przycisk, który `usuwa formatowanie` tekstu nad przyciskiem. 
 2. Stworzyć dwa pola `<div>`, w pierwszym zostanie umieszczony tekst "Posiadasz serwerów:". Poniżej w kolejnym znaczniku liczba "0". Pod nim dwa przyciski, jeden do kupowania a drugi do sprzedawania. Po kliknięciu w przycisk "Kup" pobiera wartość z diva, w którym znajduje się liczba, zwiększa ją o jeden a następnie umieszcza w tym samym polu nową, zmodyfikowaną liczbę. W przypadku przycisku z sprzedawaniem proces działania jest podobny z tą różnicą że zmniejszamy liczbę, którą pobraliśmy. 
 3. Na podstawie kodu z zadania 2 dodać następujące funkcjonalności:
-- aby liczba serwerów nie mogła spaść poniżej wartości 0
-- gdy ilość serwerów będzie mniejsza od 2 zmienić kolor tekstu na czerwony, gdy będzie większe od 2 ale mniejsze od 5, zmienić na kolor żółty i powyżej 5 to zmienić na kolor zielony
+- aby liczba serwerów nie mogła spaść poniżej wartości 0,
+- gdy ilość serwerów będzie mniejsza od 2 zmienić kolor tekstu na czerwony, gdy będzie większe od 2 ale mniejsze od 5, zmienić na kolor żółty i powyżej 5 to zmienić na kolor zielony, 
+- dodać przycisk "Zamów wiele sztuk". Po naciśnięciu w przycisk pojawi się okno dialogowe, w którym będzie możliwość wpisania liczby i ta liczba zostanie dodana do obecnej ilości sztuk, 
+- dodać przycisk "Sprzedaj wiele sztuk". Zrobi to samo co przycisk opisany wyżej z tą różnicą że odejmie podaną wartość.
