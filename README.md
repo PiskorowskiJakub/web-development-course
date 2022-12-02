@@ -18,12 +18,12 @@ Repozytorium "web-development-course" zawiera zbiór materiałów wykorzystywany
 &emsp; 2.1 JavaScript \
 &emsp; &emsp; 2.1.01 [Charakterystyka języka JavaScript](2-backend/2-1-javascript/2-1-01-charakterystyka-jezyka/README.md) \
 &emsp; &emsp; 2.1.02 [Typy danych](2-backend/2-1-javascript/2-1-02-typy-danych/README.md) \
-&emsp; &emsp; 2.1.03 Debugowanie kodu JavaScript\
+&emsp; &emsp; 2.1.03 [Zasięg zmiennych](2-backend/2-1-javascript/2-1-03-zasieg-zmiennych/README.md) \
 &emsp; &emsp; 2.1.04 [Instrukcje sterujące](2-backend/2-1-javascript/2-1-04-instrukcje-sterujace/README.md) \
 &emsp; &emsp; 2.1.05 [Okna dialogowe](2-backend/2-1-javascript/2-1-05-okna-dialogowe/README.md) \
 &emsp; &emsp; 2.1.06 [Pętle](2-backend/2-1-javascript/2-1-06-petle/README.md) \
 &emsp; &emsp; 2.1.07 [Funkcje](2-backend/2-1-javascript/2-1-07-funkcje/README.md) \
-&emsp; &emsp; 2.1.08 Obiekty w JS \
+&emsp; &emsp; 2.1.08 Debugowanie kodu JavaScript \
 &emsp; &emsp; 2.1.09 [Obsługa zdarzeń](2-backend/2-1-javascript/2-1-09-obsluga-zdarzen/README.md) \
 &emsp; &emsp; 2.1.10 [Obsługa formularzy](2-backend/2-1-javascript/2-1-10-obsluga-formularzy/README.md) \
 &emsp; &emsp; 2.1.11 [Wybrane pola i metody modelu DOM cz.1](2-backend/2-1-javascript/2-1-11-dom-cz1/README.md) \
