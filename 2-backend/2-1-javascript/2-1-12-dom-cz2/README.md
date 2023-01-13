@@ -123,7 +123,7 @@ Wykonanie kodu JavaScript po przesunięciu wskaźnika myszy poza obraz:
     <img onmouseout="normalImg(this)" src="smiley.gif" alt="Smiley">
 ```
 
-Przykład: [onmouseout.html](onmouseout.html)
+Przykład: [onmouse.html](onmouse.html)
 
 Źródło: [w3schools.com](https://www.w3schools.com/jsref/event_onmouseout.asp)
 
@@ -173,7 +173,7 @@ Przykład: [onkeyup.html](onkeyup.html)
 
 ### 3-1 onload
 
-Wykonanie kodu JavaScript natychmiast po załadowaniu strony:\
+Wykonanie kodu JavaScript natychmiast po załadowaniu strony:
 ``` HTML
     <body onload="myFunction()">
 ```
