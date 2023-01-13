@@ -340,3 +340,8 @@ Metoda `toLowerCase()`:
 - nie zmienia oryginalnego ciągu znaków.
 
 Źródło: [w3schools.com](https://www.w3schools.com/jsref/jsref_tolowercase.asp)
+
+---
+
+## Zadanie
+1. Napisz program, który po naciśnięciu w tekst umieszczony w znaczniku `<p>` zamieni w tekście wszystkie litery na duże. następnie stworzyć drugi znacznik `<p>`, w którym zostanie umieszczony inny tekst, zawierający duże oraz małe litery i po kliknięciu w ten tekst zamieni wszystkie litery na małe.
