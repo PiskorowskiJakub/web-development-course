@@ -344,4 +344,4 @@ Metoda `toLowerCase()`:
 ---
 
 ## Zadanie
-1. Napisz program, który po naciśnięciu w tekst umieszczony w znaczniku `<p>` zamieni w tekście wszystkie litery na duże. następnie stworzyć drugi znacznik `<p>`, w którym zostanie umieszczony inny tekst, zawierający duże oraz małe litery i po kliknięciu w ten tekst zamieni wszystkie litery na małe.
+1. Napisz program, który po najechaniu myszką na tekst umieszczony w znaczniku `<p>` zamieni w tekście wszystkie litery na duże. Następnie stworzyć drugi znacznik `<p>`, w którym zostanie umieszczony inny tekst, zawierający duże oraz małe litery i po najechaniu myszką na tekst zamieni wszystkie litery na małe.
