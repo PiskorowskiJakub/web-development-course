@@ -2,7 +2,7 @@
 
 `Jakub Piskorowski on 20/02/2023 wersja: 1.0`
 
-## Temat: Podstawy HTML
+## Temat: Wprowadzenie do HTML
 
 Składnia języka HTML, struktura dokumentu, tagi i atrybuty.
 
@@ -282,7 +282,7 @@ W niektórych sytuacjach, gdy sama wartość atrybutu zawiera podwójne cudzysł
 - Atrybut `lang` znacznika `<html>` deklaruje język strony WWW 
 - Atrybut `title` definiuje dodatkowe informacje o elemencie
 
-Źródło: [w3schools.com](www.w3schools.com/html)
+Źródło: [w3schools.com](https://w3schools.com/html)
 
 ---
 

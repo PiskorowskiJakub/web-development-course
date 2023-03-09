@@ -1,0 +1,52 @@
+<!--  tabela-laczenie-komorek.html
+ 1-frontend/1-1-html/1-1-02-tabele-listy/
+
+ Created by Jakub Piskorowski on 20/02/2023 wersja: 1.0
+ Copyright © 2023 Jakub Piskorowski. All rights reserved.
+ GitHub: https://github.com/PiskorowskiJakub/web-development-course
+
+ Laczenie komorek w tabeli
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Page Title</title>
+    </head>
+    <body>
+
+        <!-- Colspan -->
+        <table border="1px solid black" width="300px"> 
+            <tr>
+              <th colspan="2">Name</th>
+              <th>Age</th>
+            </tr>
+            <tr>
+              <td>Jill</td>
+              <td>Smith</td>
+              <td rowspan="2">43</td>
+            </tr>
+            <tr>
+              <td>Eve</td>
+              <td>Jackson</td>
+            </tr>
+          </table>
+
+          <hr>
+
+          <!-- Rowspan -->
+          <table border="1px solid black" width="300px">
+            <tr>
+              <th>Name</th>
+              <td>Jill</td>
+            </tr>
+            <tr>
+              <th rowspan="2">Phone</th>
+              <td>555-1234</td>
+            </tr>
+            <tr>
+              <td>555-8745</td>
+          </tr>
+          </table>
+
+    </body>
+</html>
