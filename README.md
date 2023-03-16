@@ -16,7 +16,7 @@ Repozytorium "web-development-course" zawiera zbiór materiałów wykorzystywany
 &emsp; &emsp; 1.1.01 [Wprowadzenie do HTML](./1-frontend/1-1-html/1-1-01-wprowadzenie-html/README.md)  \
 &emsp; &emsp; 1.1.02 [Tabele i listy](./1-frontend/1-1-html/1-1-02-tabele-listy/README.md)\
 &emsp; &emsp; 1.1.03 [Formatowanie tekstu i obrazów](./1-frontend/1-1-html/1-1-03-tekst-obraz/README.md) \
-&emsp; &emsp; 1.1.04 Grafika i multimedia \
+&emsp; &emsp; 1.1.04 [Grafika i multimedia](./1-frontend/1-1-html/1-1-04-grafika-multimedia/README.md) \
 &emsp; &emsp; 1.1.05 Linki i odnośniki w HTML \
 &emsp; &emsp; 1.1.06 Tworzenie formularzy \
 &emsp; 1.2 CSS \
