@@ -2,7 +2,7 @@
 
 `Jakub Piskorowski on 09/03/2023 wersja: 1.0`
 
-## Temat: Formatowanie tekstu i obrazów
+## Temat: Formatowanie tekstu
 
 Tworzenie nagłówków, podtytułów, paragrafów oraz wyrównanie tekstu. 
 
