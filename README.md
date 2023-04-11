@@ -21,7 +21,7 @@ Repozytorium "web-development-course" zawiera zbiór materiałów wykorzystywany
 &emsp; &emsp; 1.1.06 Tworzenie formularzy \
 &emsp; 1.2 CSS \
 &emsp; 1.3 Frameworki \
-&emsp; &emsp; 1.3.01 Bootstrap \
+&emsp; &emsp; 1.3.01 [Bootstrap](./1-frontend/1-3-frameworki/1-3-01-Bootstrap/README.md) \
 2 Backend \
 &emsp; 2.1 JavaScript \
 &emsp; &emsp; 2.1.01 [Charakterystyka języka JavaScript](2-backend/2-1-javascript/2-1-01-charakterystyka-jezyka/README.md) \
