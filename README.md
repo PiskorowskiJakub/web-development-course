@@ -47,7 +47,10 @@ Repozytorium "web-development-course" zawiera zbiór materiałów wykorzystywany
 &emsp; &emsp; 2.2.08 [Obsługa formularzy](2-backend/2-2-php/2-2-08-obsluga-formularzy/README.md) \
 &emsp; &emsp; 2.2.09 [Funkcje](2-backend/2-2-php/2-2-09-funkcje/README.md) \
 &emsp; &emsp; 2.2.10 [Sesja i ciasteczka](2-backend/2-2-php/2-2-10-sesja-ciasteczka/README.md) \
-&emsp; &emsp; 2.2.11 [Połączenie z bazą MySQL za pośrednictwem PHP](2-backend/2-2-php/2-2-11-mysql-z-php/README.md)
-
+&emsp; &emsp; 2.2.11 [Połączenie z bazą MySQL za pośrednictwem PHP](2-backend/2-2-php/2-2-11-mysql-z-php/README.md) \
+3. Przygotowanie strony do publikacji \
+&emsp; 3.1 Przygotowanie strony \
+&emsp; &emsp; 3.1.01 [Walidacja i optymalizacja](./3-przygotowanie-publikacja/3-1-przygotowanie-strony/3-1-01-walidacja-optymalizacja/README.md) \
+&emsp; 3.2 Publikacja strony
 
 
