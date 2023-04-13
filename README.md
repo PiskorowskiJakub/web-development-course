@@ -51,6 +51,6 @@ Repozytorium "web-development-course" zawiera zbiór materiałów wykorzystywany
 3. Przygotowanie strony do publikacji \
 &emsp; 3.1 Przygotowanie strony \
 &emsp; &emsp; 3.1.01 [Walidacja i optymalizacja](./3-przygotowanie-publikacja/3-1-przygotowanie-strony/3-1-01-walidacja-optymalizacja/README.md) \
-&emsp; 3.2 Publikacja strony
+&emsp; 3.2 [Publikacja strony](./3-przygotowanie-publikacja/3-2-Publikacja-strony/README.md)
 
 
