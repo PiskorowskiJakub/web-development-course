@@ -6,9 +6,6 @@
 
 Omówienie walidacji i optymalizacji strony.
 
-Pliki źródłowe:
-
-
 --- 
 
 ## 1. Dlaczego te elementy są ważne dla funkcjonowania strony?
