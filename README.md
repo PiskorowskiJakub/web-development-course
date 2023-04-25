@@ -52,6 +52,7 @@ Repozytorium "web-development-course" zawiera zbiór materiałów wykorzystywany
 &emsp; 3.1 Przygotowanie strony \
 &emsp; &emsp; 3.1.01 [Walidacja i optymalizacja](./3-przygotowanie-publikacja/3-1-przygotowanie-strony/3-1-01-walidacja-optymalizacja/README.md) \
 &emsp; &emsp; 3.1.02 [Zabezpieczanie witryny](./3-przygotowanie-publikacja/3-1-przygotowanie-strony/3-1-02-zabezpieczanie-witryny/README.md) \
+&emsp; &emsp; 3.1.03 [Monitorowanie ruchu na stronie](./3-przygotowanie-publikacja/3-1-przygotowanie-strony/3-1-03-monitorowanie-ruchu/README.md) \
 &emsp; 3.2 [Publikacja strony](./3-przygotowanie-publikacja/3-2-Publikacja-strony/README.md)
 
 
