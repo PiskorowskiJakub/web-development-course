@@ -48,11 +48,13 @@ Repozytorium "web-development-course" zawiera zbiór materiałów wykorzystywany
 &emsp; &emsp; 2.2.09 [Funkcje](2-backend/2-2-php/2-2-09-funkcje/README.md) \
 &emsp; &emsp; 2.2.10 [Sesja i ciasteczka](2-backend/2-2-php/2-2-10-sesja-ciasteczka/README.md) \
 &emsp; &emsp; 2.2.11 [Połączenie z bazą MySQL za pośrednictwem PHP](2-backend/2-2-php/2-2-11-mysql-z-php/README.md) \
+&emsp; 2.3 Testowanie \
+&emsp; &emsp; 2.3.01 [Wstęp do pisania testów jednostkowych](2-backend/2-3-tests/2-3-01-wstep-testy/README.md) \
 3. Przygotowanie strony do publikacji \
 &emsp; 3.1 Przygotowanie strony \
-&emsp; &emsp; 3.1.01 [Walidacja i optymalizacja](./3-przygotowanie-publikacja/3-1-przygotowanie-strony/3-1-01-walidacja-optymalizacja/README.md) \
-&emsp; &emsp; 3.1.02 [Zabezpieczanie witryny](./3-przygotowanie-publikacja/3-1-przygotowanie-strony/3-1-02-zabezpieczanie-witryny/README.md) \
-&emsp; &emsp; 3.1.03 [Monitorowanie ruchu na stronie](./3-przygotowanie-publikacja/3-1-przygotowanie-strony/3-1-03-monitorowanie-ruchu/README.md) \
-&emsp; 3.2 [Publikacja strony](./3-przygotowanie-publikacja/3-2-Publikacja-strony/README.md)
+&emsp; &emsp; 3.1.01 [Walidacja i optymalizacja](3-przygotowanie-publikacja/3-1-przygotowanie-strony/3-1-01-walidacja-optymalizacja/README.md) \
+&emsp; &emsp; 3.1.02 [Zabezpieczanie witryny](3-przygotowanie-publikacja/3-1-przygotowanie-strony/3-1-02-zabezpieczanie-witryny/README.md) \
+&emsp; &emsp; 3.1.03 [Monitorowanie ruchu na stronie](3-przygotowanie-publikacja/3-1-przygotowanie-strony/3-1-03-monitorowanie-ruchu/README.md) \
+&emsp; 3.2 [Publikacja strony](3-przygotowanie-publikacja/3-2-Publikacja-strony/README.md)
 
 
